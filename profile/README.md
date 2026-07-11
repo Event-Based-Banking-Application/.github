@@ -2,7 +2,14 @@
 
 A **Spring Boot microservices platform** modelling the core backend of a digital banking application — event-driven, cloud-native, and built for scale.
 
-**Stack**: Spring Boot 3.5.4 · Spring Cloud 2025.0.0 · Java 17 · MongoDB · Kafka · Keycloak · HashiCorp Vault · Eureka
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.4-6DB33F?logo=springboot)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-2025.0.0-6DB33F?logo=spring)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka)
+![Keycloak](https://img.shields.io/badge/Keycloak-26.0.2-4D4D4D?logo=keycloak)
+![Vault](https://img.shields.io/badge/Vault-FFEC6E?logo=vault)
+![Eureka](https://img.shields.io/badge/Eureka-4A90D9?logo=netflix)
 
 ---
 
