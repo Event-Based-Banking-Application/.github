@@ -64,7 +64,6 @@ The **Arya Banking** platform demonstrates production-grade **Spring Boot micros
 ### Shared Libraries & Config
 | Repo | Role |
 |------|------|
-| [arya-banking-bom](https://github.com/Event-Based-Banking-Application/arya-banking-bom) | **Bill of Materials** — single source of truth for all dependency versions (Spring Boot, Spring Cloud, Avro, Keycloak, Kafka, MapStruct) across every service |
 | [arya-banking-common](https://github.com/Event-Based-Banking-Application/arya-banking-common) | **Common library** — shared domain models, Kafka/Avro event schemas, MongoDB entities, MapStruct mappers, exception framework |
 | [arya-banking-outbox-service](https://github.com/Event-Based-Banking-Application/arya-banking-outbox-service) | **Outbox pattern library** — Spring Boot starter implementing the transactional outbox pattern for reliable at-least-once Kafka publishing from MongoDB |
 | [arya-banking-maven-registry](https://github.com/Event-Based-Banking-Application/arya-banking-maven-registry) | **Maven artifact registry** — anchors the GitHub Packages endpoint that hosts all internal Arya Banking artifacts |
