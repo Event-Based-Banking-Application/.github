@@ -61,10 +61,13 @@ The **Arya Banking** platform demonstrates production-grade **Spring Boot micros
 | [arya-banking-auth-service](https://github.com/Event-Based-Banking-Application/arya-banking-auth-service) | `8087` | **Auth Service** — Keycloak identity bridge, OAuth2 client credentials, JWT issuance |
 | [arya-banking-admin-service](https://github.com/Event-Based-Banking-Application/arya-banking-admin-service) | `8089` | **Admin Service** — Vault AppRole management, Keycloak realm administration, HCL policy management |
 
-### Shared & Config
+### Shared Libraries & Config
 | Repo | Role |
 |------|------|
+| [arya-banking-bom](https://github.com/Event-Based-Banking-Application/arya-banking-bom) | **Bill of Materials** — single source of truth for all dependency versions (Spring Boot, Spring Cloud, Avro, Keycloak, Kafka, MapStruct) across every service |
 | [arya-banking-common](https://github.com/Event-Based-Banking-Application/arya-banking-common) | **Common library** — shared domain models, Kafka/Avro event schemas, MongoDB entities, MapStruct mappers, exception framework |
+| [arya-banking-outbox-service](https://github.com/Event-Based-Banking-Application/arya-banking-outbox-service) | **Outbox pattern library** — Spring Boot starter implementing the transactional outbox pattern for reliable at-least-once Kafka publishing from MongoDB |
+| [arya-banking-maven-registry](https://github.com/Event-Based-Banking-Application/arya-banking-maven-registry) | **Maven artifact registry** — anchors the GitHub Packages endpoint that hosts all internal Arya Banking artifacts |
 | [arya-banking-configs](https://github.com/Event-Based-Banking-Application/arya-banking-configs) | **Configuration repository** — centralized Spring Cloud Config property files for all services |
 
 ---
