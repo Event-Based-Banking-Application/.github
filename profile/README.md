@@ -64,10 +64,12 @@ The **Arya Banking** platform demonstrates production-grade **Spring Boot micros
 ### Shared Libraries & Config
 | Repo | Role |
 |------|------|
-| [arya-banking-common](https://github.com/Event-Based-Banking-Application/arya-banking-common) | **Common library** — shared domain models, Kafka/Avro event schemas, MongoDB entities, MapStruct mappers, exception framework |
-| [arya-banking-outbox-service](https://github.com/Event-Based-Banking-Application/arya-banking-outbox-service) | **Outbox pattern library** — Spring Boot starter implementing the transactional outbox pattern for reliable at-least-once Kafka publishing from MongoDB |
-| [arya-banking-maven-registry](https://github.com/Event-Based-Banking-Application/arya-banking-maven-registry) | **Maven artifact registry** — anchors the GitHub Packages endpoint that hosts all internal Arya Banking artifacts |
-| [arya-banking-configs](https://github.com/Event-Based-Banking-Application/arya-banking-configs) | **Configuration repository** — centralized Spring Cloud Config property files for all services |
+| [arya-banking-common](https://github.com/Event-Based-Banking-Application/arya-banking-common) | **Common library** — multi-module shared library (core, mongo, kafka, feign, oauth2) |
+| [arya-banking-bom](https://github.com/Event-Based-Banking-Application/arya-banking-bom) | **Bill of Materials** — centralized dependency versions for all services |
+| [arya-banking-common-metadata-loader](https://github.com/Event-Based-Banking-Application/arya-banking-common-metadata-loader) | **Metadata loader** — standalone schema versioning tool |
+| [arya-banking-outbox-service](https://github.com/Event-Based-Banking-Application/arya-banking-outbox-service) | **Outbox pattern library** — transactional outbox for reliable Kafka publishing from MongoDB |
+| [arya-banking-maven-registry](https://github.com/Event-Based-Banking-Application/arya-banking-maven-registry) | **Maven artifact registry** — GitHub Packages endpoint for all internal artifacts |
+| [arya-banking-configs](https://github.com/Event-Based-Banking-Application/arya-banking-configs) | **Configuration repository** — centralized Spring Cloud Config property files |
 
 ---
 
