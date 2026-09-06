@@ -90,7 +90,7 @@ make vault-unseal
 ➡️ **[Full Local Development Guide](https://event-based-banking-application.github.io/arya-banking/docs/local-development/)**  
 ➡️ **[Platform Overview](https://event-based-banking-application.github.io/arya-banking/docs/platform-overview/)**  
 ➡️ **[System Architecture](https://event-based-banking-application.github.io/arya-banking/docs/system/system-architecture/)**  
-➡️ **[Discussions](https://github.com/Event-Based-Banking-Application/arya-banking/discussions)**  
+➡️ **[Discussions](https://github.com/Event-Based-Banking-Application/.github/discussions)**  
 
 ---
 
